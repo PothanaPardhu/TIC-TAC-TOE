@@ -9,4 +9,4 @@ This project helps to user to get entertained.
 Technologies used are HTML , CSS and JAVASECRIPT
 
 NOTE: 
-The project is not responsive for the mobile kindly please run on the Personal Computers 
+The project is not responsive for the mobile kindly please run on the Personal Computer
