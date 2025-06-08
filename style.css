@@ -1,0 +1,206 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Poetsen+One&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(27, 28, 42);
+}
+nav{
+    width: 100vw;
+    height: 5vw;
+    background-color: rgb(186, 244, 204);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-family: "Poetsen One", sans-serif;
+    color: rgb(226, 43, 43);
+    font-size: 2em;
+}
+.gamecontainer{
+    place-self: center;
+    width: 100vw;
+    height: 70vh;
+    padding: 30px;
+    display: flex;
+    gap: 4vw;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    transform: scale(0.7);
+}
+.outercontainer{
+    display: flex;
+    gap: 50px;
+
+
+}
+.container{
+
+    display: grid;
+    width: 30vw;
+    height: 30vw;
+    border: 2px solid black;
+    grid-template-rows:repeat(3 , 10vw);
+    grid-template-columns: repeat(3 , 10vw);
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(0, 242, 255);
+    color: white;
+    font-size: 5vw;
+    font-family: "Poetsen One", sans-serif;
+}
+
+.box:hover{
+    background-color: rgb(245, 153, 255);
+    color :black;
+    box-shadow: 0px 0px 5px 2px rgb(0, 242, 255);
+    cursor: pointer;
+}
+
+.info{
+    width: 30vw;
+    height: 30vw;
+    border: 2px solid  rgb(27, 28, 42);
+}
+
+.turn{
+    width: 30vw;
+    height: 10vw;
+    border: 1px solid rgb(27, 28, 42);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+   
+}
+
+.turninfo{
+place-self: center;
+font-size: 2em;
+font-family: "Poetsen One", sans-serif;
+letter-spacing: 0.1vw;
+color: rgb(0, 255, 153);
+}
+
+   .turnbox{
+    display: grid;
+      width: 17vw;
+      height: 4vw;
+      grid-template-columns: repeat(2 , 8.5vw);
+      border: 2px solid black;
+      transform: translateY(1vw);
+      /* font-weight: bolder; */
+      font-family:"Poetsen One", sans-serif ;
+      
+    }
+
+    .turnbox1 , .turnbox2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        font-size: 1.5em;
+        
+    }
+
+   .turnbox1{
+    background-color: red;
+    color: white;
+   }
+
+    .bt-0{
+        border-top: none;
+    }
+
+   /* .turnbox:hover{
+       .turnbox2{
+        transition: 0.2s ease-in-out 10ms;
+        background-color: rgb(255, 0, 0);
+        color: rgb(255, 255, 255);
+    }
+    .turnbox1{
+        transition: 0.2s ease-in-out 10ms;
+        background-color: white;
+        color: red;
+    }
+} */
+.winmessage{
+    width: 30vw;
+    height: 10vw;
+    border: 1px solid rgb(27, 28, 42);
+    color: rgb(225, 0, 255);
+    font-family:"Poetsen One", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     font-size: 2em;
+}
+
+.playagain{
+ display: flex;
+ width: 30vw;
+ height: 8vw;
+ border: 1px solid rgb(27, 28, 42);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+#playagainbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 12px;
+    border: 0.31vw solid black;
+    gap: 10px;
+    border-radius: 10px;
+    font-family:"Bungee Spice", sans-serif;
+   background-color: rgb(176, 251, 145);
+   font-size: 1.1em;
+}
+
+#playAgainImg{
+    width: 4vw;
+    height: 4vw;
+    object-fit: cover;
+    background-color:  rgb(176, 251, 145);
+    position: relative;
+    
+    border-radius: 100px;
+}
+
+#playagainbutton:hover{
+    box-shadow: 0px 0px 12px 0px rgb(255, 162, 0);
+    border: 3px solid rgb(255, 132, 0);
+    transform: scale(1.01);
+    cursor: pointer;
+     #playAgainImg{
+    transform: scale(1.1);
+    transform:rotateZ(360deg);
+    transition: 1s ease-in 0.1ms; 
+    }
+}
+
+.startgame{
+     border-radius: 10px;
+     transform: translateY(-1.2vw);
+     width:19vw;
+     height: 4vw;
+     background-color: #ff0f0f;
+    outline :none;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 0 0 5px #343a40;
+    box-shadow: 0 0 1.2em 0.2em #ff0000;
+    font-size: larger;
+    cursor: pointer;
+}
+
+
+.startgame:hover{
+    -webkit-box-reflect: below 1px linear-gradient(transparent , #0005);
+}
