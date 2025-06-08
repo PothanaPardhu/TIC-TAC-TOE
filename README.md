@@ -7,3 +7,6 @@ This project helps to user to get entertained.
 
 3.TECHNOLOGIES USED :
 Technologies used are HTML , CSS and JAVASECRIPT
+
+NOTE: 
+The project is not responsive for the mobile kindly please run on the Personal Computers 
