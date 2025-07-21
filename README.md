@@ -63,12 +63,15 @@ tic-tac-toe/
 ## 🌍 Live Deployment
 
 Hosted with ❤️ on  GitHub Pages 
+
 🔗 [Click here to play] https://pothanapardhu.github.io/TIC-TAC-TOE/
+
 ---
 
 ## 🧑‍💻 Author
 
 **Pothana Pardhu**  
+
 📍 Warangal, Telangana  
 
 🔗 Linked In : www.linkedin.com/in/pardhu-pothana
