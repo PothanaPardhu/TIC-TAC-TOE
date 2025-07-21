@@ -41,23 +41,19 @@ This project helps to user to get entertained.
 ## 📂 Project Structure
 tic-tac-toe/
 
-├── index.html
-# Main HTML file
+├── index.html # Main HTML file
 
-├── style.css 
-# CSS styles
+├── style.css  # CSS styles
 
-├── script.js
+├── script.js# Game logic
 
-# Game logic
-└── README.md 
-# Project documentation
+└── README.md # Project documentation
 
 ---
 
 ## ▶️ How to Play
 
-1. Open the game in your browser using the [live link](https://your-deployment-link.com).
+1. Open the game in your browser using the [live link](https://pothanapardhu.github.io/TIC-TAC-TOE/)
 2. Click on any square to place your mark (X or O).
 3. Alternate turns and try to win!
 4. Click the **Restart** button to play again.
@@ -67,15 +63,16 @@ tic-tac-toe/
 ## 🌍 Live Deployment
 
 Hosted with ❤️ on  GitHub Pages 
-🔗 [Click here to play](https://your-deployment-link.com)
-
+🔗 [Click here to play] https://pothanapardhu.github.io/TIC-TAC-TOE/
 ---
 
 ## 🧑‍💻 Author
 
 **Pothana Pardhu**  
 📍 Warangal, Telangana  
+
 🔗 Linked In : www.linkedin.com/in/pardhu-pothana
+
 📧 pardhupothana2004@gmail.com
 
 ---
