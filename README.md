@@ -6,8 +6,8 @@ Welcome to the **Tic-Tac-Toe Game** — a fun, interactive, and visually appeali
 This Project may be the regular TIC TAC TOE game i.e. the 2player game and this was the project most of the developers usually develop but the special about it that stand out of all was the UNIQUE DESIGN and the USER EXPERIENCE.
 This project helps to user to get entertained.
 
-🚀 [Play the Game Now] : 
-*(Replace with your actual hosted link)*
+🚀 [Play the Game Now] : https://pothanapardhu.github.io/TIC-TAC-TOE/
+
 
 ---
 
@@ -40,10 +40,18 @@ This project helps to user to get entertained.
 
 ## 📂 Project Structure
 tic-tac-toe/
-├── index.html # Main HTML file
-├── style.css # CSS styles
-├── script.js # Game logic
-└── README.md # Project documentation
+
+├── index.html
+# Main HTML file
+
+├── style.css 
+# CSS styles
+
+├── script.js
+
+# Game logic
+└── README.md 
+# Project documentation
 
 ---
 
